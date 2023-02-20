@@ -1,0 +1,152 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+.bar{
+    width: 48%;
+    height: 2vh;
+    background-color: black;
+    margin: auto auto;
+    position: -webkit-sticky;
+    position: sticky;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    top: 0;
+}
+
+.bar div{
+    margin: auto;
+    width: 20%;
+    text-align: center;
+}
+
+.bar div:hover{
+    cursor: cell;
+}
+
+img{
+    width: 100vw;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.blog{
+    padding-bottom: 5%;
+}
+
+
+.dropdownContent{
+    display: none;
+    width: 100%;
+    position: absolute;
+    min-width: 100%;
+    background-color: red;
+}
+
+.dropdownContent a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 8px 10px;
+    border: 1px salmon solid;
+    height: 2vh;   
+}
+
+.dropdownContent a:hover{
+    background-color: red;
+}
+
+.dropdown:hover .dropdownContent{display: block;}
+.dropdown:hover blog{
+    background-color: red;
+    cursor: cell;
+}
+
+hr{
+    width: 10%;
+    color: red;
+    border: 6px dotted white;
+    border-top: hidden;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.aboutme1{
+    display: flex;
+    width: 100vw;
+}
+
+.aboutme1 .avt{
+    width: 50vw;
+}
+
+.aboutme1 .avt img{
+    padding-top: 50px;
+    width: 40%;
+    padding-left: 45%;
+}
+
+.aboutme1 .info{
+    width: 50vw;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+}
+
+.aboutme1 ul li{
+    margin-bottom: 2vh;
+}
+
+.list_cert{
+    font-size: 25px;
+    text-align: center;
+    display: block;
+}
+
+.list_cert img{
+    width: 25%;
+}
+
+
+.root .name{
+    width: 100vw;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.writeup{
+    margin: auto auto;
+    width: 70%;
+    min-width: 100px;
+    border: 1px dashed white;
+    padding: 16px;
+    margin-bottom: 5%;
+}
+
+.foot{
+    display: inline-block;
+    background-color: rgba(5, 5, 5, 0.781);
+    height: 5vh;
+    width: 98vw;
+    text-align: right;
+    border: 5px solid rgba(5, 5, 5, 0.781);
+    padding-top: 15px;
+}
